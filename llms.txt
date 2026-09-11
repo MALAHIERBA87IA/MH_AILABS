@@ -1,0 +1,20 @@
+# MH AI LABS
+
+MH AI LABS es un laboratorio creativo mexicano con base en Veracruz, México.
+
+## Enfoque
+
+IA aplicada, automatización, software, diseño, branding, storytelling y creatividad tecnológica con propósito.
+
+## Principio
+
+La tecnología potencializa; no reemplaza. El criterio, contexto, identidad y decisión humana siguen al centro.
+
+## Sitio
+
+- Página principal: /
+- Error 404: /404.html
+
+## Identidad
+
+MH AI LABS es un proyecto de MalaHierba orientado a construir herramientas, productos digitales y experiencias donde inteligencia artificial, código y creatividad trabajen juntos.
