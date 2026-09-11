@@ -2,6 +2,10 @@
 
 MH AI LABS es un laboratorio creativo mexicano con base en Veracruz, México.
 
+## Sitio
+
+https://mh-ailabs.vercel.app/
+
 ## Enfoque
 
 IA aplicada, automatización, software, diseño, branding, storytelling y creatividad tecnológica con propósito.
@@ -10,10 +14,13 @@ IA aplicada, automatización, software, diseño, branding, storytelling y creati
 
 La tecnología potencializa; no reemplaza. El criterio, contexto, identidad y decisión humana siguen al centro.
 
-## Sitio
+## Contenido principal
 
-- Página principal: /
-- Error 404: /404.html
+- Página principal: https://mh-ailabs.vercel.app/
+- Sección Construimos: https://mh-ailabs.vercel.app/#construimos
+- Sección Ecosistema: https://mh-ailabs.vercel.app/#ecosistema
+- Sección Contacto: https://mh-ailabs.vercel.app/#contacto
+- Error 404: https://mh-ailabs.vercel.app/404.html
 
 ## Identidad
 
