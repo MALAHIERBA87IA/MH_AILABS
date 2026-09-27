@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07090d">
+<meta name="description" content="Diagnóstico de cuello de botella para negocios · MH AI LABS.">
+<title>Diagnóstico · MH AI LABS</title>
+<style>
+:root{--bg:#07090d;--panel:#0d1219;--line:rgba(255,255,255,.12);--ink:#f4f7fb;--muted:#8e9aa8;--blue:#4a9eff;--cyan:#8bd5ff;--yellow:#f2cf42}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0%,rgba(74,158,255,.13),transparent 30%),var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}.wrap{width:min(760px,calc(100% - 30px));margin:auto;padding:25px 0 50px}.brand{display:flex;align-items:center;gap:12px;margin-bottom:22px}.mark{width:48px;height:48px;display:grid;place-items:center;border:2px solid var(--blue);font-weight:950;box-shadow:5px 5px 0 var(--yellow)}.brand b{font-size:1.05rem}.brand small{display:block;color:var(--muted);margin-top:3px}.hero,.form{border:1px solid var(--line);background:rgba(13,18,25,.9);border-radius:20px;padding:24px}.eyebrow,.step{color:var(--cyan);font:800 .65rem ui-monospace,monospace;letter-spacing:2px;text-transform:uppercase}.hero h1{font-size:clamp(2.6rem,9vw,5.5rem);line-height:.88;letter-spacing:-.08em;margin:12px 0 18px}.hero h1 span{color:var(--blue)}.hero p{color:#b4bec9;line-height:1.65}.motto{margin-top:20px;border-left:4px solid var(--blue);padding:13px 15px;background:#090d12;font-weight:850}.form{margin-top:14px}.form h2{font-size:1.45rem;margin:7px 0 18px}label.field{display:block;font-size:.82rem;font-weight:800;margin:17px 0 7px}input,select,textarea{width:100%;background:#080b0f;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:13px;font:inherit}textarea{min-height:105px;resize:vertical}.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.choices{display:grid;grid-template-columns:1fr 1fr;gap:9px}.choice{display:flex;gap:9px;align-items:flex-start;padding:12px;border:1px solid var(--line);border-radius:12px;background:#090d12;font-size:.82rem;cursor:pointer}.choice input{width:auto;margin-top:2px;accent-color:var(--blue)}.hint{font-size:.72rem;color:var(--muted);margin-top:8px;line-height:1.5}.dynamic{display:none}.dynamic.show{display:block}.actions{display:grid;gap:9px;margin-top:20px}button{border:0;border-radius:12px;padding:15px;font-weight:950;letter-spacing:.6px;cursor:pointer}.primary{background:var(--yellow);color:#111}.secondary{background:#10151a;color:var(--ink);border:1px solid var(--line)}.result{display:none;margin-top:14px;border:1px solid rgba(139,213,255,.3);padding:14px;border-radius:12px;color:#cbd6df;line-height:1.5;font-size:.82rem}.result.show{display:block}.result strong{color:var(--cyan)}.footer{text-align:center;color:#657180;font:700 .62rem ui-monospace,monospace;margin-top:20px;letter-spacing:1px}@media(max-width:560px){.grid,.choices{grid-template-columns:1fr}.hero,.form{padding:18px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="brand"><div class="mark">MH</div><div><b>MH AI LABS</b><small>Laboratorio de Imagen + Tecnología · Veracruz</small></div></header>
+
+<section class="hero">
+<div class="eyebrow">DIAGNÓSTICO PARA NEGOCIOS</div>
+<h1>Primero encontramos el problema.<br><span>Después construimos.</span></h1>
+<p>No llegamos con un paquete prefabricado. Queremos entender dónde tu negocio pierde tiempo, dinero, clientes o control y detectar si podemos ayudarte con diseño, tecnología, automatización o IA.</p>
+<div class="motto">Tú conoces tu negocio. Nosotros buscamos el cuello de botella.</div>
+</section>
+
+<form class="form" id="form">
+<div class="step">01 · TU NEGOCIO</div><h2>Cuéntanos lo básico</h2>
+<div class="grid">
+<div><label class="field" for="name">Tu nombre</label><input id="name" required placeholder="Ej. Carlos"></div>
+<div><label class="field" for="business">Nombre del negocio</label><input id="business" required placeholder="Ej. El Carboncito"></div>
+</div>
+<label class="field" for="type">¿Qué tipo de negocio tienes?</label>
+<select id="type" required><option value="">Selecciona</option><option>Restaurante / Taquería / Comida</option><option>Bar / Micheladas</option><option>Comercio / Tienda</option><option>Servicio</option><option>Taller / Automotriz</option><option>Profesional / Independiente</option><option>Otro</option></select>
+
+<div class="step" style="margin-top:28px">02 · EL CUELLO DE BOTELLA</div><h2>¿Dónde sientes más presión?</h2>
+<div class="choices">
+<label class="choice"><input type="checkbox" value="Pedidos"><span>📲 Pedidos y atención</span></label>
+<label class="choice"><input type="checkbox" value="Caja / cobros"><span>💰 Caja, cobros y ventas</span></label>
+<label class="choice"><input type="checkbox" value="Inventario"><span>📦 Inventario e insumos</span></label>
+<label class="choice"><input type="checkbox" value="Clientes"><span>👥 Clientes y seguimiento</span></label>
+<label class="choice"><input type="checkbox" value="Menú / precios"><span>🧾 Menú y precios</span></label>
+<label class="choice"><input type="checkbox" value="Redes / contenido"><span>📸 Redes y contenido</span></label>
+<label class="choice"><input type="checkbox" value="Organización"><span>🧠 Organización</span></label>
+<label class="choice"><input type="checkbox" value="Otro"><span>🔎 Otro problema</span></label>
+</div>
+<div class="hint">Puedes elegir más de uno. No hay respuesta correcta.</div>
+<div id="dynamic" class="dynamic"></div>
+
+<label class="field" for="problem">🎯 Si mañana pudiéramos quitarte UN problema del negocio, ¿cuál sería?</label>
+<textarea id="problem" placeholder="Ej. Quiero saber exactamente cuánto vendí y cuánto debería tener en caja..."></textarea>
+<label class="field" for="goal">¿Qué te gustaría mejorar?</label>
+<textarea id="goal" placeholder="Cuéntanos qué te gustaría que funcionara mejor."></textarea>
+
+<div class="actions"><button class="primary" type="submit">ENVIAR MI DIAGNÓSTICO →</button><button class="secondary" type="button" id="copy">COPIAR RESPUESTAS</button></div>
+<div id="result" class="result"><strong>Diagnóstico preparado.</strong><br><span id="resultText"></span></div>
+</form>
+<div class="footer">MH AI LABS · LA BENDITA ZONA NORTE · VERACRUZ<br>TECNOLOGÍA + DISEÑO + ESTRATEGIA</div>
+</main>
+<script>
+const WA="522296053176";
+const follow={
+"Pedidos":["¿Cómo reciben principalmente los pedidos?",["WhatsApp","Facebook / Instagram","Teléfono","Presencial","Varias formas"]],
+"Caja / cobros":["¿Cómo registran actualmente las ventas y el dinero de caja?",["Libreta","Excel","Sistema","Calculadora / memoria","No llevamos un registro fijo"]],
+"Inventario":["¿Cómo controlan actualmente el inventario?",["Libreta","Excel","Sistema","Revisión visual","No tenemos control fijo"]],
+"Clientes":["¿Tienen alguna forma de identificar a sus clientes frecuentes?",["Sí, tenemos una base","Solo WhatsApp","Solo redes","De memoria","No"]],
+"Menú / precios":["¿Con qué frecuencia cambian productos, precios o promociones?",["Casi nunca","Cada pocos meses","Cada mes","Muy seguido","Depende de temporada"]],
+"Redes / contenido":["¿Qué les cuesta más de sus redes?",["Crear contenido","Publicar con constancia","Diseñar","Grabar / editar videos","Conseguir clientes"]],
+"Organización":["¿Qué parte de la operación se desordena más?",["Pedidos","Personal","Compras","Ventas","Todo está repartido"]],
+"Otro":["Cuéntanos brevemente qué otro problema detectas.",[]]
+};
+const dyn=document.getElementById("dynamic");
+document.querySelectorAll('.choice input').forEach(x=>x.addEventListener('change',render));
+function render(){
+ const selected=[...document.querySelectorAll('.choice input:checked')].map(x=>x.value);
+ dyn.innerHTML='';
+ selected.forEach((key,i)=>{
+   const f=follow[key], id='f'+i;
+   const control=f[1].length?'<select id="'+id+'" data-topic="'+key+'"><option value="">Selecciona</option>'+f[1].map(v=>'<option>'+v+'</option>').join('')+'</select>':'<textarea id="'+id+'" data-topic="'+key+'" placeholder="Escríbelo con tus palabras..."></textarea>';
+   dyn.insertAdjacentHTML('beforeend','<label class="field">'+f[0]+'</label>'+control);
+ });
+ dyn.classList.toggle('show',selected.length>0);
+}
+function collect(){
+ const pains=[...document.querySelectorAll('.choice input:checked')].map(x=>x.value);
+ const extra=[...dyn.querySelectorAll('[data-topic]')].filter(x=>x.value).map(x=>'• '+x.dataset.topic+': '+x.value).join('\n');
+ return {name:document.getElementById('name').value,business:document.getElementById('business').value,type:document.getElementById('type').value,pains,extra,problem:document.getElementById('problem').value,goal:document.getElementById('goal').value};
+}
+function message(d){
+ return '🔔 NUEVO DIAGNÓSTICO · MH AI LABS\n\n👤 Nombre: '+d.name+'\n🏪 Negocio: '+d.business+'\n🏷️ Tipo: '+d.type+'\n\n🔎 CUELLOS DE BOTELLA\n'+(d.pains.length?d.pains.map(x=>'• '+x).join('\n'):'• No seleccionado')+'\n\n📋 RESPUESTAS\n'+(d.extra||'Sin respuestas adicionales.')+'\n\n🎯 PROBLEMA QUE QUIERE ELIMINAR\n'+(d.problem||'No respondió.')+'\n\n🚀 OBJETIVO\n'+(d.goal||'No respondió.')+'\n\nMH AI LABS\nPrimero encontramos el problema. Después construimos la solución.';
+}
+function show(msg){document.getElementById('result').classList.add('show');document.getElementById('resultText').textContent=msg;}
+document.getElementById('form').addEventListener('submit',e=>{e.preventDefault();const d=collect();if(!d.name||!d.business||!d.type){alert('Completa nombre, negocio y tipo de negocio.');return}show('Abriendo WhatsApp con tus respuestas listas para enviar.');window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(message(d)),'_blank')});
+document.getElementById('copy').addEventListener('click',async()=>{const d=collect();const msg=message(d);try{await navigator.clipboard.writeText(msg);show('Las respuestas fueron copiadas. Ya puedes pegarlas en WhatsApp o Messenger.')}catch{alert(msg)}});
+</script>
+</body>
+</html>
